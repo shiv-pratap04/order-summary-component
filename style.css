@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(201, 198, 212);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.box{
+    width:20rem;
+    height:60%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    /* padding: 35px; */
+    gap: 22px;
+}
+.box img{
+    width: 100%;
+    height: 32%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.box p{
+    text-align: center;
+}
+.pricebox{
+    display: flex;
+    width: 80%;
+    height: 10%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(246, 246, 255);
+
+}
+h1{
+    font-size: 22px;
+    font-weight:bolder;
+}
+.box p{
+    color: rgb(92, 99, 122);
+    font-size: 14px;
+    text-align: center;
+    padding:0 20px;
+    font-weight: 500;
+}
+h2{
+    font-size: 14px;
+}
+.plan p{
+    font-size: 15px;
+    color: rgb(92, 99, 122);
+    margin-left: -20px;
+}
+
+.leftbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.leftbox img{
+    width: 20%;
+}
+button{
+    background-color: hsl(245, 75%, 52%);
+    width: 80%;
+    height: 7%;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 5px 20px 2px rgb(136, 136, 194);
+    border: none;
+    font-weight:550;
+}
+button:hover{
+    background-color: rgb(129, 129, 220);
+    cursor: pointer;
+}
+#corder{
+    font-weight: 700;
+    font-size: 15px;
+    color: rgb(92, 99, 122) ;
+}
+#corder:hover{
+    cursor: pointer;
+    color: darkblue;
+}
+a{
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: 15px;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(129, 129, 220);
+}
+@media screen and (max-width:375px){
+    .box{
+        width: inherit;
+        margin: 20px;
+        height: 450px;
+    }
+}
